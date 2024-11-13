@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Barb&aria - Cabelo e Barba</title>
+
+	<!--Meta tags-->
+	<meta name="title" content="Barb&aria - Cabelo e Barba" />
+	<meta name="description" content="A melhor Barbearia de sua cidade" />
+	<meta
+		name="keywords"
+		content="Corte de cabelo, corte de barba, corte com Navalha"
+	/>
+	<meta
+		property="og:image"
+		content="https://ezequiel-lee.github.io/barbearia/menu.png"
+	/>
+	<meta
+		property="og:url"
+		content="https://ezequiel-lee.github.io/barbearia/"
+	/>
+	<meta property="og:type" content="website" />
+
+	<!--Favicon-->
+	<link
+		rel="shortcut icon"
+		href="./assets/images/favicon.svg"
+		type="image/svg+xml"
+	/>
+
+	<!--CSS link-->
+	<link rel="stylesheet" href="./assets/css/animate.css" />
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<link rel="stylesheet" href="./assets/css/responsive.css" />
+
+	<!--google font link-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+	/>
+
+	<!--Flaticon-->
+	<link rel="stylesheet" href="assets/css/flaticon.min.css" />
+
+	<!--Preload images-->
+	<link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+</head>
+
+<body id="top">
+	<header class="header">
+		<!--HEADER TOP-->
+		<div class="header-top">
+			<div class="container">
+				<ul class="header-top-list animated fadeInDown">
+					<li class="header-top-item">
+						<ion-icon
+							name="call-outline"
+							aria-hidden="true"
+						></ion-icon>
+						<p class="item-title">Ligue :</p>
+						<a
+							href="tel:5599999999"
+							class="item-link"
+							target="_blank"
+							rel="noopener noreferrer"
+							>(51) 99999-9999</a
+						>
+					</li>
+
+					<li class="header-top-item">
+						<ion-icon
+							name="time-outline"
+							aria-hidden="true"
+						></ion-icon>
+						<p class="item-title">Abertura :</p>
+						<p class="item-text">Seg a Sex, 08:00 às 18:00</p>
+					</li>
+
+					<li>
+						<ul class="social-list">
+							<li>
+								<a
+									href="https://www.facebook.com"
+									class="social-link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<ion-icon
+										name="logo-facebook"
+									></ion-icon>
+								</a>
+							</li>
+
+							<li>
+								<a
+									href="https://www.instagram.com"
+									class="social-link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<ion-icon
+										name="logo-instagram"
+									></ion-icon>
+								</a>
+							</li>
+
+							<li>
+								<a
+									href="https://wa.me/5599999999?text=Oi"
+									class="social-link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<ion-icon
+										name="logo-whatsapp"
+									></ion-icon>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--HEADER TOP FIM-->
+
+		<!--HEADER BOTTON-->
+		<div class="header-bottom" data-header>
+			<div class="container animated fadeIn">
+				<a href="#" class="logo">
+					Barb&aria
+					<span class="span">Cabelo | Barba</span>
+				</a>
+
+				<nav class="navbar container" data-navbar>
+					<ul class="navbar-list" data-navbar-links>
+						<li class="navbar-item">
+							<a
+								href="#home"
+								class="navbar-link"
+								data-nav-link
+								>Menu</a
+							>
+						</li>
+
+						<li class="navbar-item">
+							<a
+								href="#services"
+								class="navbar-link"
+								data-nav-link
+								>Serviços</a
+							>
+						</li>
+
+						<li class="navbar-item">
+							<a
+								href="#pricing"
+								class="navbar-link"
+								data-nav-link
+								>Preços</a
+							>
+						</li>
+
+						<li class="navbar-item">
+							<a
+								href="#gallery"
+								class="navbar-link"
+								data-nav-link
+								>Galeria</a
+							>
+						</li>
+
+						<li class="navbar-item">
+							<a
+								href="#appointment"
+								class="navbar-link"
+								data-nav-link
+								>Reserva</a
+							>
+						</li>
+
+						<li class="navbar-item">
+							<a
+								href="#footer"
+								class="navbar-link"
+								data-nav-link
+								>Contato</a
+							>
+						</li>
+					</ul>
+				</nav>
+
+				<button
+					class="nav-toggle-btn"
+					aria-label="toggle menu"
+					data-nav-toggler
+				>
+					<ion-icon
+						class="icon-menu"
+						name="menu-outline"
+						aria-hidden="true"
+					></ion-icon>
+				</button>
+
+				<a href="#appointment" class="btn has-before">
+					<span class="span">Faça Reserva</span>
+					<ion-icon
+						name="arrow-forward"
+						aria-hidden="true"
+					></ion-icon>
+				</a>
+			</div>
+		</div>
+		<!--HEADER BOTTON FIM-->
+	</header>
+
+	<main>
+		<article>
+			<!--MAIN-->
+			<section
+				class="section hero has-before has-bg-image"
+				id="home"
+				aria-label="home"
+				style="
+					background-image: url('./assets/images/hero-banner.jpg');
+				"
+			>
+				<div class="container">
+					<h1 class="h1 hero-title wow fadeInLeft delay-01s">
+						Barbearia<br />Cabelo & Barba
+					</h1>
+					<p class="hero-text wow fadeInLeft delay-03s">
+						Venha conferir nossos diferentes cortes de Cabelo e
+						Barba<br />Nossos profissionais estão a sua espera!
+					</p>
+
+					<a
+						href="#services"
+						class="btn has-before wow fadeInLeft"
+					>
+						<span class="span">Nossos Serviços</span>
+						<ion-icon
+							name="arrow-forward"
+							aria-hidden="true"
+						></ion-icon>
+					</a>
+
+					<a
+						href="tel:5599999999"
+						class="btn has-before mobile item-link wow fadeInLeft delay-01s"
+					>
+						<ion-icon
+							class="icon"
+							name="call-outline"
+							aria-hidden="true"
+						></ion-icon>
+						(51) 99999-9999
+					</a>
+				</div>
+			</section>
+			<!--MAIN FIM-->
+
+			<!--SERVIÇOS-->
+			<section
+				class="section service"
+				id="services"
+				aria-label="services"
+			>
+				<div class="container">
+					<h2
+						class="h2 section-title text-center wow fadeIn delay-02s"
+					>
+						Serviços que Oferecemos
+					</h2>
+
+					<p
+						class="section-text text-center wow fadeIn delay-03s"
+					>
+						Oferecemos diversos serviços, entre eles corte e
+						estilos de cabelo e barba, lavagem, limpeza facial,
+						Spa e muito mais...
+					</p>
+
+					<ul class="grid-list">
+						<li>
+							<div
+								class="service-card wow fadeInUp delay-01s"
+							>
+								<div class="card-icon">
+									<i class="flaticon-salon"></i>
+								</div>
+
+								<h3 class="h3">
+									<a href="#" class="card-title"
+										>Cortes Estilosos</a
+									>
+								</h3>
+
+								<p class="card-text">
+									Nossos profionais possuem vasta
+									experiência em diversos cortes
+								</p>
+
+								<a
+									href="#"
+									class="card-btn"
+									aria-label="more"
+								>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="service-card wow fadeInUp delay-01s"
+							>
+								<div class="card-icon">
+									<i class="flaticon-shampoo"></i>
+								</div>
+
+								<h3 class="h3">
+									<a href="#" class="card-title"
+										>Hidratação</a
+									>
+								</h3>
+
+								<p class="card-text">
+									Temos em nosso atendimento os melhos
+									cosméticos e proficionais
+								</p>
+
+								<a
+									href="#"
+									class="card-btn"
+									aria-label="more"
+								>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="service-card wow fadeInUp delay-01s"
+							>
+								<div class="card-icon">
+									<i class="flaticon-hot-stone"></i>
+								</div>
+
+								<h3 class="h3">
+									<a href="#" class="card-title"
+										>Tratamentos Corporais</a
+									>
+								</h3>
+
+								<p class="card-text">
+									No tratamento corporal é usado cremes e
+									óleos essencias
+								</p>
+
+								<a
+									href="#"
+									class="card-btn"
+									aria-label="more"
+								>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="service-card wow fadeInUp delay-02s"
+							>
+								<div class="card-icon">
+									<i class="flaticon-treatment"></i>
+								</div>
+
+								<h3 class="h3">
+									<a href="#" class="card-title"
+										>Beleza & Spa</a
+									>
+								</h3>
+
+								<p class="card-text">
+									Para sua pele continuar linda e fresca
+									usamos produtos naturais
+								</p>
+
+								<a
+									href="#"
+									class="card-btn"
+									aria-label="more"
+								>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="service-card wow fadeInUp delay-02s"
+							>
+								<div class="card-icon">
+									<i class="flaticon-shaving-razor"></i>
+								</div>
+
+								<h3 class="h3">
+									<a href="#" class="card-title"
+										>Corte com Navalha</a
+									>
+								</h3>
+
+								<p class="card-text">
+									Nossos Barbeiros possuem experiência no
+									manuseio das lâminas
+								</p>
+
+								<a
+									href="#"
+									class="card-btn"
+									aria-label="more"
+								>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</a>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="service-card wow fadeInUp delay-02s"
+							>
+								<div class="card-icon">
+									<i class="flaticon-hair-dye"></i>
+								</div>
+
+								<h3 class="h3">
+									<a href="#" class="card-title"
+										>Tons de Pintura</a
+									>
+								</h3>
+
+								<p class="card-text">
+									Todas nossas tintas são de origem
+									natural e vegetal
+								</p>
+
+								<a
+									href="#"
+									class="card-btn"
+									aria-label="more"
+								>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--SERVIÇOS FIM-->
+
+			<!--PREÇOS-->
+			<section
+				class="section pricing has-bg-image has-before"
+				id="pricing"
+				aria-label="pricing"
+				style="
+					background-image: url('./assets/images/pricing-bg.jpg');
+				"
+			>
+				<div class="container">
+					<h2
+						class="h2 section-title text-center wow fadeIn delay-02s"
+					>
+						Ótimos Planos e Preços
+					</h2>
+					<p
+						class="section-text text-center wow fadeIn delay-03s"
+					>
+						Temos várias formas de pagamento: Plano mensal,
+						cartão, pix e também 10% de desconto à vista
+					</p>
+
+					<div class="pricing-tab-container">
+						<ul class="tab-filter wow fadeInUp delay-01s">
+							<li>
+								<button
+									class="filter-btn active"
+									data-filter-btn="all"
+								>
+									<div class="btn-icon">
+										<i
+											class="flaticon-beauty-salon"
+											aria-hidden="true"
+										></i>
+									</div>
+
+									<p class="btn-text">Todos Planos</p>
+								</button>
+							</li>
+
+							<li>
+								<button
+									class="filter-btn"
+									data-filter-btn="beauty-spa"
+								>
+									<div class="btn-icon">
+										<i
+											class="flaticon-relax"
+											aria-hidden="true"
+										></i>
+									</div>
+
+									<p class="btn-text">Beleza & Spa</p>
+								</button>
+							</li>
+
+							<li>
+								<button
+									class="filter-btn"
+									data-filter-btn="body-treatments"
+								>
+									<div class="btn-icon">
+										<i
+											class="flaticon-massage"
+											aria-hidden="true"
+										></i>
+									</div>
+
+									<p class="btn-text">Massagem</p>
+								</button>
+							</li>
+
+							<li>
+								<button
+									class="filter-btn"
+									data-filter-btn="face-washing"
+								>
+									<div class="btn-icon">
+										<i
+											class="flaticon-spa"
+											aria-hidden="true"
+										></i>
+									</div>
+
+									<p class="btn-text">Limpeza de Pele</p>
+								</button>
+							</li>
+
+							<li>
+								<button
+									class="filter-btn"
+									data-filter-btn="meditations"
+								>
+									<div class="btn-icon">
+										<i
+											class="flaticon-yoga"
+											aria-hidden="true"
+										></i>
+									</div>
+
+									<p class="btn-text">Meditação</p>
+								</button>
+							</li>
+
+							<li>
+								<button
+									class="filter-btn"
+									data-filter-btn="shaving"
+								>
+									<div class="btn-icon">
+										<i
+											class="flaticon-razor-blade"
+											aria-hidden="true"
+										></i>
+									</div>
+
+									<p class="btn-text">Navalha</p>
+								</button>
+							</li>
+						</ul>
+
+						<ul class="grid-list">
+							<li data-filter="shaving">
+								<div
+									class="pricing-card wow fadeInUp delay-02s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-1.jpg"
+											width="90"
+											height="90"
+											alt="Hair Cutting & Fitting"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Corte de Cabelo e Montagem
+										</h3>
+										<p class="card-text">
+											De 25 a 40 Minutos para o corte
+										</p>
+									</div>
+
+									<data class="card-price" value="89"
+										>R$ 89</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="shaving">
+								<div
+									class="pricing-card wow fadeInUp delay-02s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-2.jpg"
+											width="90"
+											height="90"
+											alt="Shaving & Facial"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Corte com Navalha
+										</h3>
+										<p class="card-text">
+											De 25 a 35 Minutos o corte
+										</p>
+									</div>
+
+									<data class="card-price" value="45"
+										>R$ 45</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="face-washing">
+								<div
+									class="pricing-card wow fadeInUp delay-04s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-3.jpg"
+											width="90"
+											height="90"
+											alt="Hair Color & Wash"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Lavagem e Pintura
+										</h3>
+										<p class="card-text">
+											De 38 a 55 Minutos a Pintura
+										</p>
+									</div>
+
+									<data class="card-price" value="35"
+										>R$ 35</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="body-treatments">
+								<div
+									class="pricing-card wow fadeInUp delay-04s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-4.jpg"
+											width="90"
+											height="90"
+											alt="Body Massage"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Massagem Corporal
+										</h3>
+										<p class="card-text">
+											De 30 a 45 Minutos a Massagem
+										</p>
+									</div>
+
+									<data class="card-price" value="56"
+										>R$ 56</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="beauty-spa">
+								<div
+									class="pricing-card wow fadeInUp delay-06s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-5.jpg"
+											width="90"
+											height="90"
+											alt="Beauty & Spa"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">Spa</h3>
+										<p class="card-text">
+											De 40 a 50 Minutos o Spa
+										</p>
+									</div>
+
+									<data class="card-price" value="27"
+										>R$ 27</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="face-washing">
+								<div
+									class="pricing-card wow fadeInUp delay-06s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-6.jpg"
+											width="90"
+											height="90"
+											alt="Facial & Face Wash"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Lavagem e Limpeza Facial
+										</h3>
+										<p class="card-text">
+											De 45 a 60 Minutos a Limpeza
+										</p>
+									</div>
+
+									<data class="card-price" value="63"
+										>R$ 63</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="body-treatments">
+								<div
+									class="pricing-card wow fadeInUp delay-08s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-7.jpg"
+											width="90"
+											height="90"
+											alt="Backbone Massage"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Massagem
+										</h3>
+
+										<p class="card-text">
+											De 35 a 40 Minutos a Massagem
+										</p>
+									</div>
+
+									<data class="card-price" value="43"
+										>R$ 43</data
+									>
+								</div>
+							</li>
+
+							<li data-filter="meditations">
+								<div
+									class="pricing-card wow fadeInUp delay-08s"
+								>
+									<figure
+										class="card-banner img-holder"
+										style="--width: 90; --height: 90"
+									>
+										<img
+											src="./assets/images/pricing-8.jpg"
+											width="90"
+											height="90"
+											alt="Meditation & Massage"
+											class="img-cover"
+										/>
+									</figure>
+
+									<div class="wrapper">
+										<h3 class="h3 card-title">
+											Meditação e Massagem
+										</h3>
+
+										<p class="card-text">
+											De 40 a 60 Minutos a Massagem
+										</p>
+									</div>
+
+									<data class="card-price" value="74"
+										>R$ 74</data
+									>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--PREÇOS FIM-->
+
+			<!-- GALERIA -->
+			<section
+				class="section gallery"
+				id="gallery"
+				aria-label="photo gallery"
+			>
+				<div class="container">
+					<div class="title-wrapper">
+						<div>
+							<h2
+								class="h2 section-title wow fadeInLeft delay-01s"
+							>
+								Últimos Clientes
+							</h2>
+							<p
+								class="section-text wow fadeInLeft delay-02s"
+							>
+								Nossos Clientes mais uma vez fazendo o corte
+								de Barba e Cabelo preferido com nossos
+								experts.
+							</p>
+						</div>
+
+						<a
+							href="#"
+							class="btn has-before wow fadeInRight delay-01s"
+						>
+							<span class="span"
+								>Mais Imagens de Clientes</span
+							>
+							<ion-icon
+								name="arrow-forward"
+								aria-hidden="true"
+							></ion-icon>
+						</a>
+					</div>
+
+					<ul class="grid-list">
+						<li>
+							<div
+								class="gallery-card wow fadeInUp delay-01s"
+							>
+								<figure
+									class="card-banner img-holder"
+									style="--width: 422; --height: 550"
+								>
+									<img
+										src="./assets/images/gallery-1.jpg"
+										width="422"
+										height="550"
+										loading="lazy"
+										alt="Hair Cutting"
+										class="img-cover"
+									/>
+								</figure>
+
+								<div class="card-content">
+									<h3 class="h3 card-title">
+										Corte Tradicional
+									</h3>
+									<p class="card-text">
+										Corte simples e Rápido
+									</p>
+									<a
+										href="#"
+										class="card-btn"
+										aria-label="Read more"
+									>
+										<ion-icon
+											name="arrow-forward"
+											aria-hidden="true"
+										></ion-icon>
+									</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="gallery-card wow fadeInUp delay-03s"
+							>
+								<figure
+									class="card-banner img-holder"
+									style="--width: 422; --height: 550"
+								>
+									<img
+										src="./assets/images/gallery-2.jpg"
+										width="422"
+										height="550"
+										loading="lazy"
+										alt="Hair Cutting"
+										class="img-cover"
+									/>
+								</figure>
+
+								<div class="card-content">
+									<h3 class="h3 card-title">
+										Corte Razor Part
+									</h3>
+									<p class="card-text">
+										Estilo de Barba Quadrada
+									</p>
+									<a
+										href="#"
+										class="card-btn"
+										aria-label="Read more"
+									>
+										<ion-icon
+											name="arrow-forward"
+											aria-hidden="true"
+										></ion-icon>
+									</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="gallery-card wow fadeInUp delay-05s"
+							>
+								<figure
+									class="card-banner img-holder"
+									style="--width: 422; --height: 550"
+								>
+									<img
+										src="./assets/images/gallery-3.jpg"
+										width="422"
+										height="550"
+										loading="lazy"
+										alt="Hair Cutting"
+										class="img-cover"
+									/>
+								</figure>
+
+								<div class="card-content">
+									<h3 class="h3 card-title">
+										Corte Asa Delta
+									</h3>
+									<p class="card-text">
+										Corte a Máquina e Navalha
+									</p>
+									<a
+										href="#"
+										class="card-btn"
+										aria-label="Read more"
+									>
+										<ion-icon
+											name="arrow-forward"
+											aria-hidden="true"
+										></ion-icon>
+									</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="gallery-card wow fadeInUp delay-07s"
+							>
+								<figure
+									class="card-banner img-holder"
+									style="--width: 422; --height: 550"
+								>
+									<img
+										src="./assets/images/gallery-4.jpg"
+										width="422"
+										height="550"
+										loading="lazy"
+										alt="Hair Cutting"
+										class="img-cover"
+									/>
+								</figure>
+
+								<div class="card-content">
+									<h3 class="h3 card-title">
+										Corte Surfista
+									</h3>
+									<p class="card-text">
+										Corte a Tesoura e Máquina
+									</p>
+									<a
+										href="#"
+										class="card-btn"
+										aria-label="Read more"
+									>
+										<ion-icon
+											name="arrow-forward"
+											aria-hidden="true"
+										></ion-icon>
+									</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- GALERIA FIM -->
+
+			<!--RESERVA-->
+			<section
+				class="section appoin"
+				id="appointment"
+				aria-label="appointment"
+			>
+				<div class="container">
+					<div class="appoin-card">
+						<figure
+							class="card-banner img-holder"
+							style="--width: 250; --height: 774"
+						>
+							<img
+								src="./assets/images/appoin-banner-1.jpg"
+								width="250"
+								height="774"
+								loading="lazy"
+								alt=""
+								class="img-cover"
+							/>
+						</figure>
+
+						<div class="card-content">
+							<h2
+								class="h2 section-title wow fadeIn delay-01s"
+							>
+								Faça Sua Reserva
+							</h2>
+							<p class="section-text wow fadeIn delay-02s">
+								Se preferir você pode marcar um horário
+								conosco<br />Sinta-se a vontade e marque um
+								dia.
+							</p>
+
+							<form
+								class="appoin-form wow fadeInUp delay-02s"
+								onsubmit="handleSubmit(event)"
+							>
+								<div class="input-wrapper">
+									<input
+										type="text"
+										name="name"
+										placeholder="Digite seu Nome"
+										required
+										class="input-field"
+									/>
+
+									<input
+										type="email"
+										name="email"
+										placeholder="Digite seu email"
+										required
+										class="input-field"
+										id="email"
+									/>
+								</div>
+
+								<div class="input-wrapper">
+									<input
+										type="tel"
+										name="phone"
+										placeholder="(00) 0 0000-0000"
+										required
+										class="input-field"
+										id="phone"
+									/>
+
+									<select
+										name="$category"
+										class="input-field"
+									>
+										<option value="Select category">
+											Selecione a Categoria
+										</option>
+										<option value="Beauty & spa">
+											Beleza & spa
+										</option>
+										<option value="Body massage">
+											Massagem
+										</option>
+										<option value="Shaving & Facial">
+											Limpeza Facial
+										</option>
+										<option value="Hair Color">
+											Pintura
+										</option>
+									</select>
+								</div>
+
+								<input
+									type="date"
+									name="$date"
+									class="input-field date"
+									required
+								/>
+
+								<textarea
+									name="message"
+									placeholder="Escreva sua mensagem aqui!"
+									required
+									class="input-field"
+									id="message"
+								></textarea>
+
+								<input
+									type="hidden"
+									name="accessKey"
+									value=""
+								/>
+
+								<button
+									type="submit"
+									class="form-btn wow fadeInUp"
+									onclick="add.play()"
+								>
+									<span class="span">Reserve Já!</span>
+									<ion-icon
+										name="arrow-forward"
+										aria-hidden="true"
+									></ion-icon>
+								</button>
+							</form>
+
+							<div
+								id="successModal"
+								class="modal animated fadeInUp"
+							>
+								<div class="modal-content">
+									<span
+										class="close"
+										onclick="closeModal('successModal')"
+										>&times;</span
+									>
+									<h1 class="logo">Barb&aria</h1>
+									<h3>Email enviado com sucesso!</h3>
+								</div>
+							</div>
+
+							<div
+								id="errorModal"
+								class="modal animated fadeInUp"
+							>
+								<div class="modal-content">
+									<span
+										class="close"
+										onclick="closeModal('errorModal')"
+										>&times;</span
+									>
+									<h1 class="logo">Barb&aria</h1>
+									<h4>
+										Erro ao enviar Email! (Apenas
+										demontração)
+									</h4>
+								</div>
+							</div>
+						</div>
+
+						<figure
+							class="card-banner img-holder"
+							style="--width: 250; --height: 774"
+						>
+							<img
+								src="./assets/images/appoin-banner-2.jpg"
+								width="250"
+								height="774"
+								loading="lazy"
+								alt=""
+								class="img-cover"
+							/>
+						</figure>
+					</div>
+				</div>
+			</section>
+			<!--RESERVA FIM-->
+		</article>
+	</main>
+
+	<!--FOOTER-->
+	<footer
+		class="footer has-bg-image"
+		id="footer"
+		style="background-image: url('./assets/images/footer-bg.png')"
+	>
+		<div class="container">
+			<div class="footer-top">
+				<div class="footer-brand wow fadeInUp delay-01s">
+					<a href="#" class="logo">
+						Barb&aria
+						<span class="span">Cabelo | Barba</span>
+					</a>
+
+					<form
+						class="input-wrapper"
+						onsubmit="handleSubmit(event)"
+					>
+						<input
+							type="email"
+							name="email"
+							placeholder="Digite seu email"
+							required
+							class="email-field"
+							id="subscribe"
+						/>
+
+						<input type="hidden" name="accessKey" value="" />
+
+						<button type="submit" class="btn has-before">
+							<span class="span">Se Inscreva</span>
+							<ion-icon
+								name="arrow-forward"
+								aria-hidden="true"
+							></ion-icon>
+						</button>
+					</form>
+				</div>
+
+				<div class="footer-link-box">
+					<ul class="footer-list wow fadeIn delay-01s">
+						<li>
+							<p class="footer-list-title">Nossas Redes</p>
+						</li>
+
+						<li>
+							<a
+								href="#services"
+								class="footer-link has-before"
+								>Serviços</a
+							>
+						</li>
+
+						<li>
+							<a
+								href="#gallery"
+								class="footer-link has-before"
+								>Nosso Time</a
+							>
+						</li>
+
+						<li>
+							<a
+								href="#gallery"
+								class="footer-link has-before"
+								>Clientes</a
+							>
+						</li>
+
+						<li>
+							<a href="#" class="footer-link has-before"
+								>Carreira</a
+							>
+						</li>
+
+						<li>
+							<a href="#" class="footer-link has-before"
+								>Blog</a
+							>
+						</li>
+					</ul>
+
+					<ul class="footer-list wow fadeIn delay-03s">
+						<li>
+							<p class="footer-list-title">Serviços</p>
+						</li>
+
+						<li>
+							<a
+								href="#services"
+								class="footer-link has-before"
+								>Estilos de Corte</a
+							>
+						</li>
+
+						<li>
+							<a
+								href="#services"
+								class="footer-link has-before"
+								>Corte com Navalha</a
+							>
+						</li>
+
+						<li>
+							<a
+								href="#services"
+								class="footer-link has-before"
+								>Pintura</a
+							>
+						</li>
+
+						<li>
+							<a
+								href="#services"
+								class="footer-link has-before"
+								>Beleza & Spa</a
+							>
+						</li>
+
+						<li>
+							<a
+								href="#pricing"
+								class="footer-link has-before"
+								>Massagem corporal</a
+							>
+						</li>
+					</ul>
+
+					<ul class="footer-list wow fadeIn delay-05s">
+						<li>
+							<p class="footer-list-title">
+								Últimos Clientes
+							</p>
+						</li>
+
+						<li>
+							<div class="blog-card">
+								<figure
+									class="card-banner img-holder"
+									style="--width: 70; --height: 75"
+								>
+									<img
+										src="./assets/images/footer-blog-1.jpg"
+										width="70"
+										height="75"
+										loading="lazy"
+										alt="Mais uma vez aqui fazendo limpeza facial"
+										class="img-cover"
+									/>
+								</figure>
+
+								<div class="card-content">
+									<h3>
+										<a
+											href="#pricing"
+											class="card-title"
+											>Mais uma vez aqui fazendo
+											limpeza facial</a
+										>
+									</h3>
+
+									<div class="card-date">
+										<ion-icon
+											name="calendar-outline"
+											aria-hidden="true"
+										></ion-icon>
+										<time datetime="2022-08-25"
+											>06 de Abril 2024</time
+										>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="blog-card">
+								<figure
+									class="card-banner img-holder"
+									style="--width: 70; --height: 75"
+								>
+									<img
+										src="./assets/images/footer-blog-2.jpg"
+										width="70"
+										height="75"
+										loading="lazy"
+										alt="Esse foi o único lugar que achei a cor que eu queria"
+										class="img-cover"
+									/>
+								</figure>
+
+								<div class="card-content">
+									<h3>
+										<a
+											href="#services"
+											class="card-title"
+											>Esse foi o único lugar que
+											achei a cor que eu queria</a
+										>
+									</h3>
+
+									<div class="card-date">
+										<ion-icon
+											name="calendar-outline"
+											aria-hidden="true"
+										></ion-icon>
+										<time datetime="2022-08-25"
+											>06 de Abril 2024</time
+										>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="footer-list wow fadeIn delay-07s">
+						<li>
+							<p class="footer-list-title">Contato</p>
+						</li>
+
+						<li class="footer-list-item">
+							<ion-icon
+								name="location-outline"
+								aria-hidden="true"
+							></ion-icon>
+
+							<address class="contact-link">
+								Porto-Alegre, Rua Brasil 123
+							</address>
+						</li>
+
+						<li class="footer-list-item">
+							<ion-icon
+								name="call-outline"
+								aria-hidden="true"
+							></ion-icon>
+							<a
+								href="tel:5599999999"
+								class="contact-link"
+								target="_blank"
+								rel="noopener noreferrer"
+								>(51) 99999-9999</a
+							>
+						</li>
+
+						<li class="footer-list-item">
+							<ion-icon
+								name="time-outline"
+								aria-hidden="true"
+							></ion-icon>
+							<span class="contact-link"
+								>Seg a Sex, 08:00 às 18:00</span
+							>
+						</li>
+
+						<li class="footer-list-item">
+							<ion-icon
+								name="mail-outline"
+								aria-hidden="true"
+							></ion-icon>
+							<a
+								href="mailto:support@gmail.com"
+								class="contact-link"
+								>support@gmail.com</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer-bottom wow fadeIn delay-02s">
+				<p class="copyright">
+					&copy; 2024
+					<a
+						href="https://www.instagram.com"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="copyright-link"
+						>@Barb&aria</a
+					>. Todos Direitos Reservados.
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!--FOOTER FIM-->
+
+	<!--BOTÃO FIXO TOP-->
+	<a
+		href="#top"
+		class="back-top-btn"
+		aria-label="back to top"
+		data-back-top-btn
+	>
+		<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+	</a>
+
+	<!--JavaScript link-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#phone").mask("(00) 00000-0000");
+		});
+	</script>
+
+	<script src="./assets/js/wow.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<!--ion-icon link-->
+	<script
+		type="module"
+		src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+	></script>
+	<script
+		nomodule
+		src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+	></script>
+</body>
+</html>
